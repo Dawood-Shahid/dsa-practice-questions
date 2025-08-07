@@ -21,9 +21,11 @@ async function run() {
       return;
     }
 
+    console.clear();
+
+    console.log(`\n===> Input: ${input}`);
     const result = fn(input);
-    console.log(`✅ Input: ${input}`);
-    console.log(`✅ Output: ${result}`);
+    console.log(`\n===> Output: ${result}`);
   } catch (err) {
     console.error("💥 Error running function:", err);
   }
