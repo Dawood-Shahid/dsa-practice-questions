@@ -5,7 +5,10 @@
 	"type": "module",
 	"scripts": {
 		"solve": "ts-node runner.ts",
-		"run:strings:find-length": "ts-node runner.ts strings/find-length"
+		"run:strings:find-length": "ts-node runner.ts strings/find-length",
+		"run:strings:reverse-string": "ts-node runner.ts strings/reverse-string",
+		"run:strings:check-palindrome": "ts-node runner.ts strings/check-palindrome",
+		"run:strings:count-vowels-consonants": "ts-node runner.ts strings/count-vowels-consonants"
 	},
 	"devDependencies": {
 		"@types/node": "^20.0.0",
